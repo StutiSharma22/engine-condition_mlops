@@ -5,7 +5,7 @@ import joblib
 
 app = Flask(__name__)
 
-model = joblib.load("model.joblib")
+model = joblib.load("best_engine_condition_model.joblib")
 
 @app.route("/")
 def home():
